@@ -1,0 +1,54 @@
+{
+    "beneficios": [
+      {
+        "id": 1,
+        "img": "./imagenes/quala.jpg",
+        "titulo": "Seguros Quala",
+        "porcentaje": "20",
+        "descripcion":"En la contratacion del seguro para tu bicicleta",
+        "condiciones":"Valido Hasta 31/07/2022"
+      },
+      {
+        "id": 2,
+        "img": "./imagenes/coto.jpg",
+        "titulo": "Coto Digital",
+        "porcentaje": "25",
+        "descripcion":"En compra online con entregas dias lunes",
+        "condiciones":"Valido Hasta 31/07/2022"
+      },
+      {
+        "id": 3,
+        "img": "./imagenes/farmacity.jpg",
+        "titulo": "Farmacity",
+        "porcentaje": "15",
+        "descripcion":"En la contratacion del seguro para tu bicicleta",
+        "condiciones":"Valido Hasta 31/07/2022"
+      },
+      {
+        "id": 4,
+        "img": "./imagenes/frizata.jpg",
+        "titulo": "Frizata",
+        "porcentaje": "15",
+        "descripcion":"Comprando Online",
+        "condiciones":"Todos los dias desde la web"
+      },
+      {
+        "id": 5,
+        "img": "./imagenes/netflix.jpg",
+        "titulo": "Netflix",
+        "porcentaje": "50",
+        "descripcion":"Comprando online",
+        "condiciones":"Valido hasta el 31/08/2022"
+      },
+      {
+        "id": 6,
+        "img": "./imagenes/pedidosya.jpg",
+        "titulo": "Pedidos Ya",
+        "porcentaje": "30",
+        "descripcion":"Pagando con tarjeta de credito",
+        "condiciones":"Tope de reintegro $800"
+      }      
+    ]
+  }
+
+  

@@ -1,0 +1,295 @@
+/***************************************************************************GENERALES*/
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+li {
+  list-style: none;
+}
+
+h5 {
+  font-size: 14px;
+}
+
+/****************************************************************************NAVEGACION*/
+
+.header {
+  background: #24c6dc;
+  background: -webkit-linear-gradient(to top, #514a9d, #24c6dc);
+  background: linear-gradient(to top, #514a9d, #24c6dc);
+}
+
+.logo {
+  display: flex;
+}
+.logo img {
+  width: 3rem;
+  height: auto;
+  display: block;
+  align-items: center;
+  margin-left: 50%;
+}
+
+.nav-item {
+  color: #283655;
+  text-decoration: none;
+  margin-right: 15%;
+}
+
+.modoNocturno {
+  position: fixed;
+  border: none;
+  color: #283655;
+  background-color: transparent;
+}
+.modoNocturno:hover {
+  color: purple;
+}
+.modo {
+  background-color: black;
+  color: #283655;
+}
+
+/****************************************************************************************INICIO PALABRAS*/
+.inicio {
+  display: flex;
+  text-align: end;
+}
+.inicio-palabras {
+  display: inline-block;
+  width: 40%;
+  align-content: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.inicio-imagen {
+  max-width: 280px;
+  margin: 0 5%;
+}
+.typed {
+  font-size: 2.5rem;
+}
+
+/*************************************************************************************** CAJAS DE PRESENTACION*/
+.cajasPresentacion {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cajasItem {
+  margin: 3%;
+  width: 150px;
+  box-shadow: 7px 6px 5px -1px rgba(0, 0, 0, 0.3);
+  padding: 1%;
+}
+
+.cajasItem a img {
+  display: flex;
+  margin-left: 25%;
+}
+
+.cajasItem a {
+  text-align: center;
+  text-decoration: none;
+  color: #283655;
+  font-weight: 700;
+}
+
+.imgPresent {
+  background-color: #283655;
+  color: #dfdbe5;
+}
+
+/****************************************************************************************FORMULARIO*/
+.fondo {
+  height: 300px;
+  background-image: url("./imagenes/fondo.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/****************************************************************************************FORMULARIO*/
+input,
+select {
+  height: 50px;
+  border: none;
+  margin: 0 1%;
+  border-bottom: 3px solid #283655;
+  background-color: transparent;
+}
+input:hover {
+  transform: scale(0.9);
+}
+
+#btnForm,
+#btn-conversor,
+#btn-continuarPF,
+#btn-cerrarModal,
+#btnSimular,
+#btnVisitanos,
+#btnOtraCita,
+#confirmarVisita,
+#btnEnviarDatosPersonales {
+  display: inline-block;
+  background-color: #283655;
+  color: white;
+  height: 40px;
+  outline: none;
+  border-radius: 5%;
+}
+/* 
+formulario datos personales */
+#formDatosPersonales {
+  background-color: red;
+  width: 1vw;
+}
+#formDatosPersonales input {
+  transform: scale(1);
+  margin: 150%;
+}
+
+/****************************************************************************************TARJETAS*/
+.card-body {
+  border: 1px solid black;
+  margin: 1%;
+}
+#tarjetas {
+  display: flex;
+  justify-content: space-around;
+  /* 
+  background-color: #283655; */
+  padding: 1%;
+}
+.cardInfoPlazo {
+  /* background-color: yellow; */
+  border: none;
+  width: 30%;
+  padding: 1%;
+  box-shadow: 2px 3px 5px 3px rgba(0, 0, 0, 0.77);
+}
+.card-body {
+  /* background-color: blue; */
+  border: 1px solid #283655;
+  border-radius: 3%;
+  /* text-align: center; */
+  /* padding: 10%; */
+}
+
+.btnModal {
+  background-color: #283655;
+  width: 100%;
+  color: #eef2f3;
+}
+.modal-header {
+  background-color: black;
+  color: #eef2f3;
+}
+.modal-title {
+  width: 100%;
+  text-align: center;
+}
+
+#btn-continuarPF {
+  display: none;
+}
+#formularioContinuar {
+  display: none;
+}
+
+/***********************************************************************************BOTON SCROLL*/
+.btnScroll {
+  position: fixed;
+  right: 1vh;
+  bottom: 1vh;
+  border-radius: 50%;
+  background-color: #283655;
+  font-size: 2rem;
+  color: white;
+  border: 1px solid #283655;
+  transition: all 0.2s;
+}
+.hidden {
+  visibility: hidden;
+  opacity: 0;
+}
+/***********************************************************************************DIVISAS*/
+#conversor {
+  display: flex;
+  margin: 1%;
+}
+#totalMostrar {
+  min-width: 100px;
+
+  text-align: center;
+  padding: 1%;
+}
+
+/***********************************************************************************BENEFICIOS*/
+
+.cardBeneficios {
+  display: block;
+  margin: 1%;
+  box-shadow: 7px 6px 5px -1px rgba(0, 0, 0, 0.3);
+  border: transparent;
+}
+.card-body {
+  color: #283655;
+  border: none;
+  background-color: transparent;
+}
+.porcentaje {
+  text-align: center;
+  font-size: 45px;
+}
+
+.cardBeneficios:hover {
+  transform: scale(0.99);
+}
+#caja1,
+#caja2 {
+  background-color: #dfdbe5;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%239C92AC' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+  display: block;
+  /* width: 350px;
+  height: 200px;
+  overflow-y: scroll;
+  scroll-behavior: smooth; */
+}
+/***********************************************************************************FORM DE VISITA*/
+.visitanos {
+  width: 100%;
+  margin: 1%;
+  background-color: honeydew;
+}
+.visitanos > * {
+  padding: 2%;
+  margin: 1%;
+}
+#btnVisitanos,
+#btnOtraCita {
+  margin: 1%;
+}
+/***********************************************************************************TABLA DE VISITA*/
+#tablaVisitas {
+  width: 100%;
+}
+/***********************************************************************************DIVISAS*/
+#conversor {
+  display: flex;
+  margin: 1%;
+}
+#totalMostrar {
+  min-width: 100px;
+
+  text-align: center;
+  padding: 1%;
+}
+
+#tablaDia {
+  border-spacing: 10px;
+  border-collapse: separate;
+  background-color: #283655;
+  border-radius: 1%;
+  width: 50%;
+}
